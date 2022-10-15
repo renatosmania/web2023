@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  @apply w-[0.60rem] bg-white;
+}
+::-webkit-scrollbar-thumb{
+  @apply bg-black/60 hover:bg-black/20 transition-all duration-700 dark:bg-black/80 dark:hover:bg-black/40;
+}
