@@ -40,21 +40,49 @@ export function Header() {
           </a>
         </div>
         <nav className="hidden md:flex">
-          <ul className="flex">
+          <ul className="flex gap-6">
             <li>
-              <a href="#Home">Home</a>
+              <a
+                className={classNames("uppercase text-lg transition-all duration-700", {
+                  "text-white": scrollHeader === true,
+                  "text-black": scrollHeader === false,
+                })}
+                href="#Home"
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a href="#Sobre">Sobre</a>
+              <a className={classNames("uppercase text-lg transition-all duration-700", {
+                  "text-white": scrollHeader === true,
+                  "text-black": scrollHeader === false,
+                })} href="#Sobre">
+                Sobre
+              </a>
             </li>
             <li>
-              <a href="#Projetos">Projetos</a>
+              <a className={classNames("uppercase text-lg transition-all duration-700", {
+                  "text-white": scrollHeader === true,
+                  "text-black": scrollHeader === false,
+                })} href="#Projetos">
+                Projetos
+              </a>
             </li>
             <li>
-              <a href="#Social">Social</a>
+              <a className={classNames("uppercase text-lg transition-all duration-700", {
+                  "text-white": scrollHeader === true,
+                  "text-black": scrollHeader === false,
+                })} href="#Social">
+                Social
+              </a>
             </li>
             <li>
-              <a href="#Contato">Contato</a>
+              <a className={classNames("uppercase text-lg transition-all duration-700", {
+                  "text-white": scrollHeader === true,
+                  "text-black": scrollHeader === false,
+                })} href="#Contato">
+                Contato
+              </a>
             </li>
           </ul>
         </nav>

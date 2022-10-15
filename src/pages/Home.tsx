@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { Helmet } from "react-helmet";
 import { Footer } from "../components/Footer";
+import { Newsletter } from "../components/Newsletter";
 
 export function Home() {
   return (
@@ -138,6 +139,8 @@ export function Home() {
           exercitationem veniam, dolor id eius eaque temporibus repellendus ex
           tempore corporis omnis.
         </p>
+
+        <Newsletter />
       </main>
       <Footer />
     </>
