@@ -20,7 +20,7 @@ export function Header() {
   return (
     <header
       className={classNames(
-        "fixed flex px-5 bg-slate-300 w-full h-16 md:h-28 md:justify-center md:items-center transition-all duration-700 z-50",
+        "fixed flex px-5 w-full h-16 md:h-28 md:justify-center md:items-center transition-all duration-700 z-50",
         {
           "bg-black": scrollHeader === true,
           "bg-white/40 backdrop-blur-sm": scrollHeader === false,
