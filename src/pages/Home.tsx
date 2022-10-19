@@ -2,6 +2,10 @@ import { Header } from "../components/Header";
 import { Helmet } from "react-helmet";
 import { Footer } from "../components/Footer";
 import { Newsletter } from "../components/Newsletter";
+import { Slide } from "../components/Slide";
+import { About } from "../components/About";
+import { Video } from "../components/Video";
+import { Projects } from "../components/Projects";
 
 export function Home() {
   return (
@@ -15,131 +19,12 @@ export function Home() {
       </Helmet>
       <Header />
       <main>
-        <img
-          src="https://www.renatosmania.com.br/imagens/projeto-01.jpg"
-          alt=""
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab
-          corrupti quisquam enim aut! Doloremque nulla corrupti, incidunt
-          exercitationem veniam, dolor id eius eaque temporibus repellendus ex
-          tempore corporis omnis.
-        </p>
-
+        <Slide />
+        <About />
+        <section className="w-full my-7">
+          <Video />
+        </section>
+        <Projects />
         <Newsletter />
       </main>
       <Footer />

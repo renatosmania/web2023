@@ -20,7 +20,7 @@ export function Header() {
   return (
     <header
       className={classNames(
-        "fixed flex px-5 bg-slate-300 w-full h-28 md:justify-center md:items-center transition-all duration-700 ",
+        "fixed flex px-5 bg-slate-300 w-full h-16 md:h-28 md:justify-center md:items-center transition-all duration-700 z-50",
         {
           "bg-black": scrollHeader === true,
           "bg-white/40 backdrop-blur-sm": scrollHeader === false,
@@ -43,44 +43,71 @@ export function Header() {
           <ul className="flex gap-6">
             <li>
               <a
-                className={classNames("uppercase text-lg transition-all duration-700", {
-                  "text-white": scrollHeader === true,
-                  "text-black": scrollHeader === false,
-                })}
+                className={classNames(
+                  "uppercase text-lg transition-all duration-700",
+                  {
+                    "text-white": scrollHeader === true,
+                    "text-black": scrollHeader === false,
+                  }
+                )}
                 href="#Home"
               >
                 Home
               </a>
             </li>
             <li>
-              <a className={classNames("uppercase text-lg transition-all duration-700", {
-                  "text-white": scrollHeader === true,
-                  "text-black": scrollHeader === false,
-                })} href="#Sobre">
+              <a
+                className={classNames(
+                  "uppercase text-lg transition-all duration-700",
+                  {
+                    "text-white": scrollHeader === true,
+                    "text-black": scrollHeader === false,
+                  }
+                )}
+                href="/#about"
+              >
                 Sobre
               </a>
             </li>
             <li>
-              <a className={classNames("uppercase text-lg transition-all duration-700", {
-                  "text-white": scrollHeader === true,
-                  "text-black": scrollHeader === false,
-                })} href="#Projetos">
+              <a
+                className={classNames(
+                  "uppercase text-lg transition-all duration-700",
+                  {
+                    "text-white": scrollHeader === true,
+                    "text-black": scrollHeader === false,
+                  }
+                )}
+                href="#Projetos"
+              >
                 Projetos
               </a>
             </li>
             <li>
-              <a className={classNames("uppercase text-lg transition-all duration-700", {
-                  "text-white": scrollHeader === true,
-                  "text-black": scrollHeader === false,
-                })} href="#Social">
+              <a
+                className={classNames(
+                  "uppercase text-lg transition-all duration-700",
+                  {
+                    "text-white": scrollHeader === true,
+                    "text-black": scrollHeader === false,
+                  }
+                )}
+                href="#Social"
+              >
                 Social
               </a>
             </li>
             <li>
-              <a className={classNames("uppercase text-lg transition-all duration-700", {
-                  "text-white": scrollHeader === true,
-                  "text-black": scrollHeader === false,
-                })} href="#Contato">
+              <a
+                className={classNames(
+                  "uppercase text-lg transition-all duration-700",
+                  {
+                    "text-white": scrollHeader === true,
+                    "text-black": scrollHeader === false,
+                  }
+                )}
+                href="#Contato"
+              >
                 Contato
               </a>
             </li>
@@ -118,7 +145,7 @@ export function Header() {
             </a>
           </li>
           <li>
-            <a href="#" className="uppercase text-2xl">
+            <a href="/#about" className="uppercase text-2xl">
               Sobre
             </a>
           </li>
