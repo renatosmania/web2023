@@ -7,12 +7,13 @@ export function Slide() {
   return (
     <section>
       <Swiper
-        className="z-0 w-full overflow-hidden"
+        className="z-0 w-full overflow-x-hidden"
         effect={"coverflow"}
         slidesPerView={"auto"}
         grabCursor={true}
         loop={true}
-        speed={1000}
+        speed={300}
+        scrollbar={false}
       >
         <SwiperSlide>
           <img

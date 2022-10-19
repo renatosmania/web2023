@@ -6,6 +6,7 @@ import { Slide } from "../components/Slide";
 import { About } from "../components/About";
 import { Video } from "../components/Video";
 import { Projects } from "../components/Projects";
+import { Posts } from "../components/Posts";
 
 export function Home() {
   return (
@@ -18,13 +19,14 @@ export function Home() {
         />
       </Helmet>
       <Header />
-      <main>
+      <main className="flex flex-col gap-12">
         <Slide />
         <About />
-        <section className="w-full my-7">
+        <section className="w-full">
           <Video />
         </section>
         <Projects />
+        <Posts />
         <Newsletter />
       </main>
       <Footer />

@@ -1,10 +1,10 @@
 export function About() {
   return (
-    <section className="w-full flex justify-center py-7 px-7 my-7" id="about">
+    <section className="w-full flex justify-center py-7 px-7" id="about">
       <div className="w-[968px] md:w-[1024px] flex flex-col md:flex-row justify-between gap-7">
         <div className="w-full md:max-w-sm lg:max-w-xl flex flex-col justify-between order-2 md:order-1">
           <h3 className="text-xl font-bold">Renato Smania</h3>
-          <div className="flex flex-col gap-4 mt-7 text-sm">
+          <div className="flex flex-col gap-4 mt-2 text-sm">
             <p>
               Dono de uma arquitetura exclusiva e requintada, Renato Smania faz
               projetos residenciais, comerciais, edifícios e condomínios de
@@ -18,7 +18,10 @@ export function About() {
             </p>
           </div>
           <div className="mt-7">
-            <a href="#" className="bg-black px-8 py-4 text-white font-bold">
+            <a
+              href="/sobre"
+              className="bg-black px-8 py-4 text-white font-bold"
+            >
               Mais detalhes
             </a>
           </div>

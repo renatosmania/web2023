@@ -128,17 +128,20 @@ export function Header() {
 
       <nav
         className={classNames(
-          "absolute w-[70%] flex flex-col h-screen bg-slate-500 p-4 md:hidden transition-all duration-300",
+          "absolute w-[70%] flex flex-col h-screen bg-white/90 dark:bg-black/80 backdrop-blur-sm p-4 md:hidden transition-all duration-700",
           {
             "right-0": open === true,
             "right-[-100%]": open === false,
           }
         )}
       >
-        <button onClick={() => setOpen(!open)} className="absolute right-4 ">
+        <button
+          onClick={() => setOpen(!open)}
+          className="absolute right-4 text-black dark:text-white"
+        >
           <X size={32} />
         </button>
-        <ul className="flex flex-col w-full pl-10 mt-10 gap-5">
+        <ul className="flex flex-col w-full pl-10 mt-10 gap-5 text-black dark:text-white">
           <li>
             <a href="#" className="uppercase text-2xl">
               Home
@@ -166,7 +169,7 @@ export function Header() {
           </li>
         </ul>
 
-        <div className="mt-56 absolute flex w-full justify-center items-center gap-5 bottom-36">
+        <div className="mt-56 absolute flex w-full justify-center items-center gap-5 bottom-36 text-black dark:text-white">
           <span>Dark Mode</span>
           <button>
             <Moon size={32} />
