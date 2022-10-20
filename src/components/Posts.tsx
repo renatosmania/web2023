@@ -14,18 +14,14 @@ export function Posts() {
             <ArrowUpRight size={24} />
           </a>
         </div>
-        <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <ul className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <li className="bg-slate-100 hover:drop-shadow-md transition-all duration-700">
             <a href="#" className="flex flex-col items-center">
               <img className="w-full" src="./assets/images/pedra.jpg" alt="" />
               <div className="flex flex-col p-4">
-                <h4 className="text-md text-black font-bold text-center mb-4">
-                  Qual Pedra Escolher para a bancada da cozinha?
+                <h4 className="text-sm md:text-lg text-black font-bold text-center mb-2">
+                  Escadas e seu grande poder na arquitetura
                 </h4>
-                <p className="text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                  harum impedit.
-                </p>
               </div>
             </a>
           </li>
@@ -33,13 +29,9 @@ export function Posts() {
             <a href="#" className="flex flex-col items-center">
               <img className="w-full" src="./assets/images/pedra.jpg" alt="" />
               <div className="flex flex-col p-4">
-                <h4 className="text-md text-black font-bold text-center mb-4">
+                <h4 className="text-sm md:text-lg text-black font-bold text-center mb-2">
                   Qual Pedra Escolher para a bancada da cozinha?
                 </h4>
-                <p className="text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                  harum impedit.
-                </p>
               </div>
             </a>
           </li>
@@ -47,41 +39,9 @@ export function Posts() {
             <a href="#" className="flex flex-col items-center">
               <img className="w-full" src="./assets/images/pedra.jpg" alt="" />
               <div className="flex flex-col p-4">
-                <h4 className="text-md text-black font-bold text-center mb-4">
-                  Qual Pedra Escolher para a bancada da cozinha?
+                <h4 className="text-sm md:text-lg text-black font-bold text-center mb-2">
+                  Uma das chaves para deixar um ambiente sofisticado e aconchegante, é a iluminação
                 </h4>
-                <p className="text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                  harum impedit.
-                </p>
-              </div>
-            </a>
-          </li>
-          <li className="bg-slate-100 hover:drop-shadow-md transition-all duration-700">
-            <a href="#" className="flex flex-col items-center">
-              <img className="w-full" src="./assets/images/pedra.jpg" alt="" />
-              <div className="flex flex-col p-4">
-                <h4 className="text-md text-black font-bold text-center mb-4">
-                  Qual Pedra Escolher para a bancada da cozinha?
-                </h4>
-                <p className="text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                  harum impedit.
-                </p>
-              </div>
-            </a>
-          </li>
-          <li className="bg-slate-100 hover:drop-shadow-md transition-all duration-700">
-            <a href="#" className="flex flex-col items-center">
-              <img className="w-full" src="./assets/images/pedra.jpg" alt="" />
-              <div className="flex flex-col p-4">
-                <h4 className="text-md text-black font-bold text-center mb-4">
-                  Qual Pedra Escolher para a bancada da cozinha?
-                </h4>
-                <p className="text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-                  harum impedit.
-                </p>
               </div>
             </a>
           </li>
