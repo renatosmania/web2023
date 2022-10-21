@@ -7,7 +7,7 @@ export function Slide() {
   return (
     <section className="w-full justify-center">
       <Swiper
-        className="z-0 w-full md:w-full lg:w-[1024px] overflow-x-hidden"
+        className="z-0 w-full overflow-x-hidden"
         effect={"coverflow"}
         slidesPerView={"auto"}
         grabCursor={true}

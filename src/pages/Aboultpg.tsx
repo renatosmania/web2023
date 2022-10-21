@@ -1,3 +1,4 @@
+import { Calendar } from "phosphor-react";
 import { Helmet } from "react-helmet";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
@@ -74,49 +75,114 @@ export function Aboutpg() {
               <h4 className="text-xl font-bold">
                 Principais viagens e premiações da carreira
               </h4>
-              <ul>
-                <li className="flex relative">
-                  <span className="font-bold after:content-[''] after:block after:w-[20px] after:rounded-[50%] after:relative after:h-[20px] after:bg-orange-300">
+              <ul className="flex flex-col gap-4">
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
                     2011
-                  </span>{" "}
-                  – Feira de Bologna e Milão, na Itália.
+                  </span>
+                  Feira de Bologna e Milão, na Itália.
                 </li>
 
-                <li>2014 – 1° lugar na premiação do Top Decor.</li>
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2011
+                  </span>
+                  1° lugar na premiação do Top Decor.
+                </li>
 
-                <li>
-                  2015 – Viagem para a Jordânia, pelo programa Lá Vou Eu, da
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2015
+                  </span>
+                  Viagem para a Jordânia, pelo programa Lá Vou Eu, da
                   Todeschini.
                 </li>
 
-                <li>2015 – Feira de Milão, na Itália, pelo Top Decor.</li>
-
-                <li>2016 – 1° lugar na premiação do Top Decor.</li>
-
-                <li>
-                  2016 – Visita dos melhores arquitetos do Brasil a fabrica da
-                  Natuzzi na Itália.
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2015
+                  </span>
+                  Feira de Milão, na Itália, pelo Top Decor.
                 </li>
 
-                <li>
-                  2016 – Viagem para a Tailândia e Dubai, pelo programa Lá Vou
-                  Eu, da Todeschini.
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2016
+                  </span>
+                  1° lugar na premiação do Top Decor.
                 </li>
 
-                <li>2017 – 1° lugar na premiação do Top Decor.</li>
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2016
+                  </span>
+                  Visita dos melhores arquitetos do Brasil a fabrica da Natuzzi
+                  na Itália.
+                </li>
 
-                <li>2017 – Vitrine assinada na loja Sierra Móveis.</li>
-
-                <li>
-                  2017 – Viagem para a Eslovênia, pelo programa Lá Vou Eu, da
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2016
+                  </span>
+                  Viagem para a Tailândia e Dubai, pelo programa Lá Vou Eu, da
                   Todeschini.
                 </li>
 
-                <li>2017 – Viagem para a França, pela Evviva.</li>
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2017
+                  </span>
+                  1° lugar na premiação do Top Decor.
+                </li>
 
-                <li>2018 – Viagem para as Bahamas e Miami, pela SCA.</li>
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2017
+                  </span>
+                  Vitrine assinada na loja Sierra Móveis.
+                </li>
 
-                <li>2018 – Feira de Milão, na Itália.</li>
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2017
+                  </span>
+                  Viagem para a Eslovênia, pelo programa Lá Vou Eu, da
+                  Todeschini.
+                </li>
+
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2017
+                  </span>
+                  Viagem para a França, pela Evviva.
+                </li>
+
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2018
+                  </span>
+                  Viagem para as Bahamas e Miami, pela SCA.
+                </li>
+
+                <li className="flex gap-4 items-center">
+                  <span className="flex gap-2 items-center text-xl">
+                    <Calendar size={32} />
+                    2018
+                  </span>
+                  Feira de Milão, na Itália.
+                </li>
               </ul>
             </article>
             <article className="flex flex-col gap-4">
