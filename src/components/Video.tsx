@@ -6,7 +6,7 @@ export function Video() {
       <div className="bg-black flex justify-center p-7">
         <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video">
           <Player autoplay>
-            <Youtube videoId={"wYpCWwD1oz0"} />
+            <Youtube videoId={"BXpWOd-d-gI"} />
             <DefaultUi />
           </Player>
         </div>
