@@ -23,6 +23,9 @@ export function Aboutpg() {
         <section className="w-full flex justify-center items-center">
           <div className="flex flex-col gap-6 md:w-[968px] lg:w-[1024px] mx-7 lg:mx-0">
             <article className="flex flex-col gap-4">
+              <h2 className="text-3xl font-bold mb-7">
+                Renato Smania Studio de Arquitetura comemora 19 anos de sucesso
+              </h2>
               <p>
                 Muitos esperam acontecer, outros fazem acontecer. Assim é Renato
                 Smania, arquiteto que domina a habilidade de desenhar e se
@@ -65,6 +68,10 @@ export function Aboutpg() {
                 meu traço, mas eu busco seguir o desejo dos clientes, sem um
                 padrão. Eu topo o desafio que aparecer”, destaca.
               </p>
+              <img
+                src="https://media.graphassets.com/JQ5OJnODRjyvzPxk3dtw"
+                alt="Renato Smania Projeto Interior"
+              />
               <p>
                 Também está sempre inovando nos trabalhos, por isso realiza
                 muitas viagens pelo mundo, além de manter-se atualizado com
@@ -72,118 +79,233 @@ export function Aboutpg() {
               </p>
             </article>
             <article className="flex flex-col gap-4 items-center">
-              <h4 className="text-xl font-bold">
+              <h2 className="text-2xl font-bold">
                 Principais viagens e premiações da carreira
-              </h4>
-              <ul className="flex flex-col gap-4">
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2011
-                  </span>
-                  Feira de Bologna e Milão, na Itália.
-                </li>
+              </h2>
+              <div className="grid grid-cols-20 md:grid-cols-18 my-7 justify-center">
+                <div className="grid gap-6 grid-cols-16">
+                  <div>
+                    <h3 className="text-md">
+                      Feira de Bologna e Milão, na Itália.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-end">
+                      2011
+                      <Calendar size={24} />
+                    </div>
+                  </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2011
-                  </span>
-                  1° lugar na premiação do Top Decor.
-                </li>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2015
-                  </span>
-                  Viagem para a Jordânia, pelo programa Lá Vou Eu, da
-                  Todeschini.
-                </li>
+                <div className="grid gap-6 grid-cols-16">
+                  <div></div>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                  <div>
+                    <h3 className="text-md">
+                      1° lugar na premiação do Top Decor.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-start">
+                      <Calendar size={24} />
+                      2014
+                    </div>
+                  </div>
+                </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2015
-                  </span>
-                  Feira de Milão, na Itália, pelo Top Decor.
-                </li>
+                <div className="grid gap-6 grid-cols-16">
+                  <div>
+                    <h3 className="text-md">
+                      Viagem para a Jordânia, pelo programa Lá Vou Eu, da
+                      Todeschini.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-end">
+                      2015
+                      <Calendar size={24} />
+                    </div>
+                  </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2016
-                  </span>
-                  1° lugar na premiação do Top Decor.
-                </li>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2016
-                  </span>
-                  Visita dos melhores arquitetos do Brasil a fabrica da Natuzzi
-                  na Itália.
-                </li>
+                <div className="grid gap-6 grid-cols-16">
+                  <div></div>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                  <div>
+                    <h3 className="text-md">
+                      Feira de Milão, na Itália, pelo Top Decor.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-start">
+                      <Calendar size={24} />
+                      2015
+                    </div>
+                  </div>
+                </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2016
-                  </span>
-                  Viagem para a Tailândia e Dubai, pelo programa Lá Vou Eu, da
-                  Todeschini.
-                </li>
+                <div className="grid gap-6 grid-cols-16">
+                  <div>
+                    <h3 className="text-md">
+                      1° lugar na premiação do Top Decor.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-end">
+                      2016
+                      <Calendar size={24} />
+                    </div>
+                  </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2017
-                  </span>
-                  1° lugar na premiação do Top Decor.
-                </li>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2017
-                  </span>
-                  Vitrine assinada na loja Sierra Móveis.
-                </li>
+                <div className="grid gap-6 grid-cols-16">
+                  <div></div>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                  <div>
+                    <h3 className="text-md">
+                      Visita dos melhores arquitetos do Brasil a fabrica da
+                      Natuzzi na Itália.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-start">
+                      <Calendar size={24} />
+                      2016
+                    </div>
+                  </div>
+                </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2017
-                  </span>
-                  Viagem para a Eslovênia, pelo programa Lá Vou Eu, da
-                  Todeschini.
-                </li>
+                <div className="grid gap-6 grid-cols-16">
+                  <div>
+                    <h3 className="text-md">
+                      Viagem para a Tailândia e Dubai, pelo programa Lá Vou Eu,
+                      da Todeschini.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-end">
+                      2016
+                      <Calendar size={24} />
+                    </div>
+                  </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2017
-                  </span>
-                  Viagem para a França, pela Evviva.
-                </li>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2018
-                  </span>
-                  Viagem para as Bahamas e Miami, pela SCA.
-                </li>
+                <div className="grid gap-6 grid-cols-16">
+                  <div></div>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                  <div>
+                    <h3 className="text-md">
+                      1° lugar na premiação do Top Decor.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-start">
+                      <Calendar size={24} />
+                      2017
+                    </div>
+                  </div>
+                </div>
 
-                <li className="flex gap-4 items-center">
-                  <span className="flex gap-2 items-center text-xl">
-                    <Calendar size={32} />
-                    2018
-                  </span>
-                  Feira de Milão, na Itália.
-                </li>
-              </ul>
+                <div className="grid gap-6 grid-cols-16">
+                  <div>
+                    <h3 className="text-md">
+                      Vitrine assinada na loja Sierra Móveis.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-end">
+                      2017
+                      <Calendar size={24} />
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                </div>
+
+                <div className="grid gap-6 grid-cols-16">
+                  <div></div>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                  <div>
+                    <h3 className="text-md">
+                      Viagem para a Eslovênia, pelo programa Lá Vou Eu, da
+                      Todeschini.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-start">
+                      <Calendar size={24} />
+                      2017
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid gap-6 grid-cols-16">
+                  <div>
+                    <h3 className="text-md">
+                      Viagem para a França, pela Evviva.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-end">
+                      2017
+                      <Calendar size={24} />
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                </div>
+
+                <div className="grid gap-6 grid-cols-16">
+                  <div></div>
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                  <div>
+                    <h3 className="text-md">
+                      Viagem para as Bahamas e Miami, pela SCA.
+                    </h3>
+                    <div className="flex gap-2 items-center justify-start">
+                      <Calendar size={24} />
+                      2018
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid gap-6 grid-cols-16">
+                  <div>
+                    <h3 className="text-md">Feira de Milão, na Itália.</h3>
+                    <div className="flex gap-2 items-center justify-end">
+                      2018
+                      <Calendar size={24} />
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
+                    <span className="block bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                  </div>
+                </div>
+              </div>
             </article>
             <article className="flex flex-col gap-4">
               <p>
@@ -194,6 +316,10 @@ export function Aboutpg() {
                 Brasil, os principais projetos concentram-se em São Paulo, Minas
                 Gerais, Mato Grosso, Goiás e Paraná.
               </p>
+              <img
+                src="https://media.graphassets.com/uxsZJF4gQFizV9HYlR9d"
+                alt="Renato Smania Projeto Residencial"
+              />
             </article>
             <article className="flex flex-col gap-4">
               <h4 className="text-xl font-bold">
@@ -213,9 +339,14 @@ export function Aboutpg() {
                 sempre me abençoar, e a minha família e minha esposa, Elaine,
                 por estarem comigo em cada novo desafio”, conclui.
               </p>
+              <img
+                src="https://media.graphassets.com/X7nDDXocQuWewFV2gZsi"
+                alt="Renato Smania e Equipe 2019"
+              />
               <p>
-                Endereço: Rua João XXIII, 728 – Sala 01 – Santa Terezinha de
-                Itaipu Telefone: (45) 3541-0010
+                Endereço: Rua João XXIII, 728 – Sala 01
+                <br />
+                Santa Terezinha de Itaipu <br /> Telefone: (45) 3541-0010
               </p>
             </article>
           </div>
