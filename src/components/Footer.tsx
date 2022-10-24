@@ -52,7 +52,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="linkedin.com/company/renatosmaniastudiodearquitetura"
+                  href="https://linkedin.com/company/renatosmaniastudiodearquitetura"
                   target={"_blank"}
                 >
                   <LinkedinLogo size={32} />
