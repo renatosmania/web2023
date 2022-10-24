@@ -50,13 +50,13 @@ export function Projects() {
             <a href="#">
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
-                src="https://www.renatosmania.com.br/imagens/projeto-place-01.jpeg"
+                src="https://media.graphassets.com/FMPA4VoyR6Gjhl1RzD15"
                 alt=""
               />
               <div className="relative bottom-14 md:bottom-24 lg:bottom-14 flex justify-between items-end px-2">
                 <div>
                   <h4 className="font-bold text-white drop-shadow-sm">
-                    Residencia Lopes
+                    Projeto Residencial Casa
                   </h4>
                   <span className="text-sm text-white drop-shadow-sm">
                     Brasil
@@ -72,13 +72,13 @@ export function Projects() {
             <a href="#">
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
-                src="https://www.renatosmania.com.br/imagens/projeto-place-01.jpeg"
+                src="https://media.graphassets.com/FmZeneASWKlfK3GlSFGX"
                 alt=""
               />
               <div className="relative bottom-14 md:bottom-24 lg:bottom-14 flex justify-between items-end px-2">
                 <div>
                   <h4 className="font-bold text-white drop-shadow-sm">
-                    Residencia Lopes
+                    Projeto Residencial Sobrado
                   </h4>
                   <span className="text-sm text-white drop-shadow-sm">
                     Brasil
@@ -94,13 +94,13 @@ export function Projects() {
             <a href="#">
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
-                src="https://www.renatosmania.com.br/imagens/projeto-place-01.jpeg"
+                src="https://media.graphassets.com/1h35Q6AHRJC3pS5kv08Z"
                 alt=""
               />
               <div className="relative bottom-14 md:bottom-24 lg:bottom-14 flex justify-between items-end px-2">
                 <div>
                   <h4 className="font-bold text-white drop-shadow-sm">
-                    Residencia Lopes
+                    Projeto Residencial Sobrado
                   </h4>
                   <span className="text-sm text-white drop-shadow-sm">
                     Brasil
@@ -116,13 +116,13 @@ export function Projects() {
             <a href="#">
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
-                src="https://www.renatosmania.com.br/imagens/projeto-place-01.jpeg"
+                src="https://media.graphassets.com/VMI6QgPOT1yPmlbzvWj9"
                 alt=""
               />
               <div className="relative bottom-14 md:bottom-24 lg:bottom-14 flex justify-between items-end px-2">
                 <div>
                   <h4 className="font-bold text-white drop-shadow-sm">
-                    Residencia Lopes
+                    Projeto Residencial Sobrado
                   </h4>
                   <span className="text-sm text-white drop-shadow-sm">
                     Brasil

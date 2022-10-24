@@ -31,15 +31,15 @@ export function About() {
             <img
               className="hover:scale-[1.1] transition-all duration-700"
               width={130}
-              src="https://www.renatosmania.com.br/imagens/projeto-05.jpg"
-              alt=""
+              src="/assets/images/renato-smania-project.jpg"
+              alt="Renato Smania"
             />
           </div>
           <div className="overflow-hidden">
             <img
               className="hover:scale-[1.1] transition-all duration-700"
               width={180}
-              src="https://www.renatosmania.com.br/imagens/projeto-03.jpg"
+              src="/assets/images/renato-smania-profile.jpg"
               alt="Renato Smania"
             />
           </div>
