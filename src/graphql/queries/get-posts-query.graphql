@@ -1,0 +1,9 @@
+query GetPostsQuery {
+  posts(last: 4) {
+    slug
+    title
+    thumbnail {
+      url
+    }
+  }
+}

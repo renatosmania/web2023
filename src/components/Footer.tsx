@@ -3,6 +3,7 @@ import {
   FacebookLogo,
   WhatsappLogo,
   PinterestLogo,
+  TiktokLogo,
 } from "phosphor-react";
 
 export function Footer() {
@@ -16,22 +17,27 @@ export function Footer() {
 
             <ul className="flex my-5 gap-4">
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/renatosmania.arq/">
                   <InstagramLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/people/Renato-Smania-Arquitetura/100077983083114/">
                   <FacebookLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://pinterest.com/arq_renatosmania">
                   <PinterestLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.tiktok.com/@renatosmaniaarquitetura">
+                  <TiktokLogo size={32} />
+                </a>
+              </li>
+              <li>
+                <a href="https://api.whatsapp.com/send?phone=5545999210484">
                   <WhatsappLogo size={32} />
                 </a>
               </li>
