@@ -1,6 +1,7 @@
 import { SpinnerGap } from "phosphor-react";
 import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
+import { Breadcrumbs } from "../../components/Breadcrumbs";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { useGetPostBySlugQuery } from "../../graphql/generated";
@@ -33,18 +34,27 @@ export function Postpg() {
       </Helmet>
       <Header />
       <main className="pt-28 p-6 w-full flex justify-center items-center">
-        <section className="flex flex-col w-full">
-          <h3 className="text-3xl font-bold">{data?.post?.title}</h3>
-          <img
-            width={150}
-            src={data?.post?.thumbnail?.url}
-            alt={data?.post?.title}
+        <section className="max-w-5xl flex-col p-6">
+          <Breadcrumbs
+            breadcrumbs={[
+              { href: "/", name: "Home" },
+              { href: "/posts", name: "posts" },
+              { href: `${data?.post?.slug}`, name: `${data?.post?.title}` },
+            ]}
           />
-          <div
-            dangerouslySetInnerHTML={{
-              __html: `${data?.post?.content?.html}`,
-            }}
-          ></div>
+          <div className="flex gap-7 mt-7">
+            <div>
+              <img src={data?.post?.thumbnail?.url} alt={data?.post?.title} />
+            </div>
+            <div className="flex flex-col gap-7">
+              <h3 className="text-3xl font-bold">{data?.post?.title}</h3>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: `${data?.post?.content?.html}`,
+                }}
+              ></div>
+            </div>
+          </div>
         </section>
       </main>
       <Footer />

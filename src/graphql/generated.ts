@@ -6864,7 +6864,7 @@ export type GetPostBySlugQuery = { __typename?: 'Query', post?: { __typename?: '
 export type GetPostsQueryQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GetPostsQueryQuery = { __typename?: 'Query', posts: Array<{ __typename?: 'Post', slug: string, title: string, thumbnail?: { __typename?: 'Asset', url: string } | null }> };
+export type GetPostsQueryQuery = { __typename?: 'Query', posts: Array<{ __typename?: 'Post', slug: string, title: string, view?: number | null, thumbnail?: { __typename?: 'Asset', url: string } | null }> };
 
 
 export const CreateSubscriberDocument = gql`
@@ -6952,6 +6952,7 @@ export const GetPostsQueryDocument = gql`
   posts(last: 4) {
     slug
     title
+    view
     thumbnail {
       url
     }

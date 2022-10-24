@@ -2,6 +2,7 @@ query GetPostsQuery {
   posts(last: 4) {
     slug
     title
+    view
     thumbnail {
       url
     }

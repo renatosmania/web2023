@@ -20,13 +20,13 @@ export function Posts() {
       <div className="md:w-[968px] lg:w-[1024px] flex flex-col px-4 md:px-7 lg:mx-0">
         <div className="flex justify-between mb-7 items-center">
           <h3 className="text-xl font-bold">Últimas noticías</h3>
-          <a
-            href="#"
+          <Link
+            to={"/posts"}
             className="text-sm flex gap-3 items-center bg-black px-8 py-4 text-white font-bold"
           >
             Ver todos
             <ArrowUpRight size={24} />
-          </a>
+          </Link>
         </div>
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {data?.posts.map((post) => {
@@ -39,6 +39,8 @@ export function Posts() {
                 >
                   <img
                     className="w-full"
+                    width={290}
+                    height={290}
                     src={post.thumbnail?.url}
                     alt={post.title}
                   />

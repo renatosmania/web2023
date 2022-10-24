@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { X, Moon, List } from "phosphor-react";
 import classNames from "classnames";
 import Logors from "./Logors";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -50,13 +51,13 @@ export function Header() {
                     "text-black": scrollHeader === false,
                   }
                 )}
-                href="#Home"
+                href="/#Home"
               >
                 Home
               </a>
             </li>
             <li>
-              <a
+              <Link
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
@@ -64,13 +65,13 @@ export function Header() {
                     "text-black": scrollHeader === false,
                   }
                 )}
-                href="/#about"
+                to={"/#about"}
               >
                 Sobre
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
@@ -78,13 +79,13 @@ export function Header() {
                     "text-black": scrollHeader === false,
                   }
                 )}
-                href="#Projetos"
+                to={"/#Projetos"}
               >
                 Projetos
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
@@ -92,13 +93,13 @@ export function Header() {
                     "text-black": scrollHeader === false,
                   }
                 )}
-                href="#Social"
+                to={"/#Social"}
               >
                 Social
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
@@ -106,10 +107,10 @@ export function Header() {
                     "text-black": scrollHeader === false,
                   }
                 )}
-                href="#Contato"
+                to={"/#Contato"}
               >
                 Contato
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -143,29 +144,29 @@ export function Header() {
         </button>
         <ul className="flex flex-col w-full pl-10 mt-10 gap-5 text-black dark:text-white">
           <li>
-            <a href="#" className="uppercase text-2xl">
+            <Link to={"/#home"} className="uppercase text-2xl">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/#about" className="uppercase text-2xl">
+            <Link to={"/#about"} className="uppercase text-2xl">
               Sobre
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="uppercase text-2xl">
+            <Link to={"/#projetos"} className="uppercase text-2xl">
               Projetos
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="uppercase text-2xl">
+            <Link to={"/#social"} className="uppercase text-2xl">
               Social
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="uppercase text-2xl">
+            <Link to={"/#contato"} className="uppercase text-2xl">
               Contato
-            </a>
+            </Link>
           </li>
         </ul>
 

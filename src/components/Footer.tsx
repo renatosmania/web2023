@@ -4,7 +4,9 @@ import {
   WhatsappLogo,
   PinterestLogo,
   TiktokLogo,
+  LinkedinLogo,
 } from "phosphor-react";
+import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
@@ -15,29 +17,52 @@ export function Footer() {
             <h3 className="font-bold text-lg">Renato Smania</h3>
             <p>Imagine, Ele dará forma ao seu sonho.</p>
 
-            <ul className="flex my-5 gap-4">
+            <ul className="grid grid-cols-4 my-5 gap-2">
               <li>
-                <a href="https://www.instagram.com/renatosmania.arq/">
+                <a
+                  href="https://www.instagram.com/renatosmania.arq/"
+                  target={"_blank"}
+                >
                   <InstagramLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/people/Renato-Smania-Arquitetura/100077983083114/">
+                <a
+                  href="https://www.facebook.com/people/Renato-Smania-Arquitetura/100077983083114/"
+                  target={"_blank"}
+                >
                   <FacebookLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="https://pinterest.com/arq_renatosmania">
+                <a
+                  href="https://pinterest.com/arq_renatosmania"
+                  target={"_blank"}
+                >
                   <PinterestLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="https://www.tiktok.com/@renatosmaniaarquitetura">
+                <a
+                  href="https://www.tiktok.com/@renatosmaniaarquitetura"
+                  target={"_blank"}
+                >
                   <TiktokLogo size={32} />
                 </a>
               </li>
               <li>
-                <a href="https://api.whatsapp.com/send?phone=5545999210484">
+                <a
+                  href="linkedin.com/company/renatosmaniastudiodearquitetura"
+                  target={"_blank"}
+                >
+                  <LinkedinLogo size={32} />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5545999210484"
+                  target={"_blank"}
+                >
                   <WhatsappLogo size={32} />
                 </a>
               </li>
@@ -48,13 +73,10 @@ export function Footer() {
             <h3 className="font-bold text-lg">Sobre</h3>
             <ul>
               <li>
-                <a href="#">Sobre nós</a>
+                <Link to={"/sobre"}>Sobre nós</Link>
               </li>
               <li>
-                <a href="#">Feature</a>
-              </li>
-              <li>
-                <a href="#">Novidades</a>
+                <Link to={"/posts"}>Posts</Link>
               </li>
             </ul>
           </div>
@@ -74,12 +96,6 @@ export function Footer() {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Suporte</h3>
             <ul>
-              <li>
-                <a href="#">Perguntas frequentes</a>
-              </li>
-              <li>
-                <a href="#">Central de suporte</a>
-              </li>
               <li>
                 <a href="#">Contato</a>
               </li>
