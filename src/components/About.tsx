@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export function About() {
   return (
     <section className="w-full flex justify-center py-7 px-7" id="about">
@@ -18,12 +19,12 @@ export function About() {
             </p>
           </div>
           <div className="mt-7">
-            <a
-              href="/sobre"
+            <Link
+              to={"/sobre"}
               className="bg-black px-8 py-4 text-white font-bold"
             >
               Mais detalhes
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex gap-4 items-center justify-center md:order-2">
@@ -31,7 +32,7 @@ export function About() {
             <img
               className="hover:scale-[1.1] transition-all duration-700"
               width={130}
-              src="/assets/images/renato-smania-project.jpg"
+              src="https://media.graphassets.com/fbcC0b8RYmetm3EEGSGc"
               alt="Renato Smania"
             />
           </div>
@@ -39,7 +40,7 @@ export function About() {
             <img
               className="hover:scale-[1.1] transition-all duration-700"
               width={180}
-              src="/assets/images/renato-smania-profile.jpg"
+              src="https://media.graphassets.com/VlW49aoT8iH6dJZUwFQg"
               alt="Renato Smania"
             />
           </div>
