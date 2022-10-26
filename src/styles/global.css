@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  @apply bg-white-500;
+}
+
 ::-webkit-scrollbar{
-  @apply w-[0.60rem] bg-white;
+  @apply w-[0.60rem] bg-white-100;
 }
 ::-webkit-scrollbar-thumb{
-  @apply bg-black/60 hover:bg-black/20 transition-all duration-700 dark:bg-black/80 dark:hover:bg-black/40;
+  @apply bg-black-900/60 hover:bg-black-900/20 transition-all duration-700 dark:bg-black-900/80 dark:hover:bg-black-900/40;
 }

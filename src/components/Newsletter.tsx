@@ -34,13 +34,13 @@ export function Newsletter() {
   }
   return (
     <section
-      className="w-full flex flex-col items-center bg-black md:bg-none sm:bg-none px-5 md:px-0"
+      className="w-full flex flex-col items-center bg-black-500 md:bg-none sm:bg-none px-5 md:px-0"
       id="newsletter"
     >
-      <div className="flex flex-col items-center gap-6 bg-black md:bg-none md:max-w-3xl lg:w-[1024px]  py-7">
+      <div className="flex flex-col items-center gap-6 bg-black-500 md:bg-none md:max-w-3xl lg:w-[1024px]  py-7">
         <div className="flex flex-col items-center">
-          <h4 className="text-xl text-white font-bold">Newsletter</h4>
-          <span className="text-white">
+          <h4 className="text-xl text-white-100 font-bold">Newsletter</h4>
+          <span className="text-white-100">
             Receba novidades em projetos, legislação e dicas.
           </span>
         </div>
@@ -48,15 +48,15 @@ export function Newsletter() {
           onSubmit={handleSubmit(handleSubscribe)}
           className="flex justify-center my-7"
         >
-          <div className="bg-white px-2 py-2 flex justify-between gap-8">
+          <div className="bg-white-100 px-2 py-2 flex justify-between gap-8">
             <input
               type="email"
               placeholder="Entre com seu melhor e-mail!"
-              className="w-2/3 md:w-80 outline-none font-bold text-gray-500 placeholder:text-sm"
+              className="w-2/3 md:w-80 outline-none font-bold text-black-500/90 placeholder:text-sm"
               {...register("email", { required: true })}
             />
             <button
-              className="bg-black px-8 py-4 text-white font-bold"
+              className="bg-black-500 px-8 py-4 text-white-100 font-bold"
               disabled={loading}
               type="submit"
             >

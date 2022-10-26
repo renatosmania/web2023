@@ -8,8 +8,8 @@ export function Posts() {
   if (error) {
     <section className="w-full flex justify-center my-7">
       <div className="flex flex-col items-center gap-3">
-        <SpinnerGap size={32} className="animate-spin text-green-600" />
-        <p className="animate-pulse text-sm text-green-600 font-bold">
+        <SpinnerGap size={32} className="animate-spin text-black-500" />
+        <p className="animate-pulse text-sm text-black-500 font-bold">
           Carregando ...
         </p>
       </div>
@@ -22,7 +22,7 @@ export function Posts() {
           <h3 className="text-xl font-bold">Últimas noticías</h3>
           <Link
             to={"/posts"}
-            className="text-sm flex gap-3 items-center bg-black px-8 py-4 text-white font-bold"
+            className="text-sm flex gap-3 items-center bg-black-500 px-8 py-4 font-bold text-white-100 hover:bg-black-500/40 hover:text-black-500/90 transition-all duration-700"
           >
             Ver todos
             <ArrowUpRight size={24} />
@@ -45,7 +45,7 @@ export function Posts() {
                     alt={post.title}
                   />
                   <div className="flex flex-col p-4">
-                    <h4 className="text-sm md:text-lg text-black font-bold text-center mb-2">
+                    <h4 className="text-sm md:text-lg text-black-500 font-bold text-center mb-2">
                       {post.title}
                     </h4>
                   </div>

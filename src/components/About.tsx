@@ -4,8 +4,8 @@ export function About() {
     <section className="w-full flex justify-center py-7 px-7" id="about">
       <div className="w-[968px] md:w-[1024px] flex flex-col md:flex-row justify-between gap-7">
         <div className="w-full md:max-w-sm lg:max-w-xl flex flex-col justify-between order-2 md:order-1">
-          <h3 className="text-xl font-bold">Renato Smania</h3>
-          <div className="flex flex-col gap-4 mt-2 text-sm">
+          <h3 className="text-xl font-bold text-black-500">Renato Smania</h3>
+          <div className="flex flex-col gap-4 mt-2 text-sm text-black-500">
             <p>
               Dono de uma arquitetura exclusiva e requintada, Renato Smania faz
               projetos residenciais, comerciais, edifícios e condomínios de
@@ -21,7 +21,7 @@ export function About() {
           <div className="mt-7">
             <Link
               to={"/sobre"}
-              className="bg-black px-8 py-4 text-white font-bold"
+              className="bg-black-500 px-8 py-4 text-white-100 font-bold hover:bg-black-500/40 hover:text-black-500/90 transition-all duration-700"
             >
               Mais detalhes
             </Link>
