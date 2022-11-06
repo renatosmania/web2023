@@ -95,16 +95,16 @@ export function Aboutpg() {
                   </div>
 
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                 </div>
 
                 <div className="grid gap-6 grid-cols-16">
                   <div></div>
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                   <div>
                     <h3 className="text-md">
@@ -130,16 +130,16 @@ export function Aboutpg() {
                   </div>
 
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                 </div>
 
                 <div className="grid gap-6 grid-cols-16">
                   <div></div>
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                   <div>
                     <h3 className="text-md">
@@ -164,16 +164,16 @@ export function Aboutpg() {
                   </div>
 
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                 </div>
 
                 <div className="grid gap-6 grid-cols-16">
                   <div></div>
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                   <div>
                     <h3 className="text-md">
@@ -200,16 +200,16 @@ export function Aboutpg() {
                   </div>
 
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                 </div>
 
                 <div className="grid gap-6 grid-cols-16">
                   <div></div>
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                   <div>
                     <h3 className="text-md">
@@ -234,16 +234,16 @@ export function Aboutpg() {
                   </div>
 
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                 </div>
 
                 <div className="grid gap-6 grid-cols-16">
                   <div></div>
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                   <div>
                     <h3 className="text-md">
@@ -269,16 +269,16 @@ export function Aboutpg() {
                   </div>
 
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                 </div>
 
                 <div className="grid gap-6 grid-cols-16">
                   <div></div>
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block w-[1px] h-[100%] bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block w-[1px] h-[100%] bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                   <div>
                     <h3 className="text-md">
@@ -301,8 +301,8 @@ export function Aboutpg() {
                   </div>
 
                   <div>
-                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black"></span>
-                    <span className="block bg-black translate-x-[15px] translate-y-[-15px]"></span>
+                    <span className="w-8 h-8 inline-block rounded-[50%] bg-black-500"></span>
+                    <span className="block bg-black-500 translate-x-[15px] translate-y-[-15px]"></span>
                   </div>
                 </div>
               </div>

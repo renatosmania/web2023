@@ -21,10 +21,10 @@ export function Header() {
   return (
     <header
       className={classNames(
-        "fixed flex px-5 w-full h-16 md:h-28 md:justify-center md:items-center transition-all duration-700 z-50",
+        "fixed flex px-5 w-full h-16 md:h-28 md:justify-center md:items-center drop-shadow-lg transition-all duration-700 z-50",
         {
-          "bg-black": scrollHeader === true,
-          "bg-white/40 backdrop-blur-sm": scrollHeader === false,
+          "bg-black-500": scrollHeader === true,
+          "bg-white-100/40 backdrop-blur-sm": scrollHeader === false,
         }
       )}
     >
@@ -33,8 +33,8 @@ export function Header() {
           <a href="/" className="flex items-center">
             <Logors
               className={classNames("w-48 p-1 transition-all duration-700", {
-                "fill-white": scrollHeader === true,
-                "fill-black p-0": scrollHeader === false,
+                "fill-white-100": scrollHeader === true,
+                "fill-black-500 p-0": scrollHeader === false,
               })}
             />
             <span className="text-[0rem]">Renato Smania</span>
@@ -47,8 +47,8 @@ export function Header() {
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
-                    "text-white": scrollHeader === true,
-                    "text-black": scrollHeader === false,
+                    "text-white-100": scrollHeader === true,
+                    "text-black-500": scrollHeader === false,
                   }
                 )}
                 href="/#Home"
@@ -61,8 +61,8 @@ export function Header() {
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
-                    "text-white": scrollHeader === true,
-                    "text-black": scrollHeader === false,
+                    "text-white-100": scrollHeader === true,
+                    "text-black-500": scrollHeader === false,
                   }
                 )}
                 to={"/#about"}
@@ -75,8 +75,8 @@ export function Header() {
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
-                    "text-white": scrollHeader === true,
-                    "text-black": scrollHeader === false,
+                    "text-white-100": scrollHeader === true,
+                    "text-black-500": scrollHeader === false,
                   }
                 )}
                 to={"/#Projetos"}
@@ -89,8 +89,8 @@ export function Header() {
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
-                    "text-white": scrollHeader === true,
-                    "text-black": scrollHeader === false,
+                    "text-white-100": scrollHeader === true,
+                    "text-black-500": scrollHeader === false,
                   }
                 )}
                 to={"/#Social"}
@@ -103,8 +103,8 @@ export function Header() {
                 className={classNames(
                   "uppercase text-lg transition-all duration-700",
                   {
-                    "text-white": scrollHeader === true,
-                    "text-black": scrollHeader === false,
+                    "text-white-100": scrollHeader === true,
+                    "text-black-500": scrollHeader === false,
                   }
                 )}
                 to={"/#Contato"}
@@ -119,8 +119,8 @@ export function Header() {
             <List
               size={32}
               className={classNames({
-                "text-white": scrollHeader === true,
-                "text-black": scrollHeader === false,
+                "text-white-100": scrollHeader === true,
+                "text-black-500": scrollHeader === false,
               })}
             />
           </button>
@@ -129,7 +129,7 @@ export function Header() {
 
       <nav
         className={classNames(
-          "absolute w-[70%] flex flex-col h-screen bg-white/90 dark:bg-black/80 backdrop-blur-sm p-4 md:hidden transition-all duration-700",
+          "absolute w-[70%] flex flex-col h-screen bg-white-100/90 dark:bg-black-500/80 backdrop-blur-sm p-4 md:hidden transition-all duration-700",
           {
             "right-0": open === true,
             "right-[-100%]": open === false,
@@ -138,11 +138,11 @@ export function Header() {
       >
         <button
           onClick={() => setOpen(!open)}
-          className="absolute right-4 text-black dark:text-white"
+          className="absolute right-4 text-black dark:text-white-100"
         >
           <X size={32} />
         </button>
-        <ul className="flex flex-col w-full pl-10 mt-10 gap-5 text-black dark:text-white">
+        <ul className="flex flex-col w-full pl-10 mt-10 gap-5 text-black dark:text-white-100">
           <li>
             <Link to={"/#home"} className="uppercase text-2xl">
               Home
@@ -170,7 +170,7 @@ export function Header() {
           </li>
         </ul>
 
-        <div className="mt-56 absolute flex w-full justify-center items-center gap-5 bottom-36 text-black dark:text-white">
+        <div className="mt-56 absolute flex w-full justify-center items-center gap-5 bottom-36 text-black-500 dark:text-white-100">
           <span>Dark Mode</span>
           <button>
             <Moon size={32} />

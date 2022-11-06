@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
-    <footer className="w-full flex justify-center mt-6 text-gray-500">
+    <footer className="w-full flex justify-center mt-6 text-gray-500 bg-black-500">
       <div className="flex flex-col justify-center w-screen mx-5 sm:w-[968px] lg:w-[1024px] gap-10 py-6">
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
           <div className="flex flex-col gap-2">
@@ -77,6 +77,9 @@ export function Footer() {
               </li>
               <li>
                 <Link to={"/posts"}>Posts</Link>
+              </li>
+              <li>
+                <Link to={"/projetos"}>Projetos</Link>
               </li>
             </ul>
           </div>

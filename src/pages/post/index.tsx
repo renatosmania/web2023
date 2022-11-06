@@ -48,7 +48,7 @@ export function Postspg() {
             </h3>
           </div>
           <div className="flex flex-col max-w-5xl m-auto py-4">
-            <ul className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-4">
+            <ul className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4">
               {data?.posts.map((post) => {
                 return (
                   <li>
@@ -58,7 +58,7 @@ export function Postspg() {
                       className="flex flex-col gap-2 md:gap-4 justify-center p-4 bg-slate-100 transition-all duration-200 hover:drop-shadow-lg"
                     >
                       <img src={post.thumbnail?.url} alt={post.title} />
-                      <h4>{post.title}</h4>
+                      <h4 className="text-sm md:text-lg">{post.title}</h4>
                       <div className="flex justify-between items-center">
                         <button className="text-sm flex gap-3 items-center bg-black px-8 py-4 text-white font-bold">
                           Detalhes

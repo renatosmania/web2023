@@ -17,18 +17,21 @@ export function Slide() {
       >
         <SwiperSlide>
           <img
+            className="w-full"
             src="https://media.graphassets.com/1h35Q6AHRJC3pS5kv08Z"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
+            className="w-full"
             src="https://media.graphassets.com/GQCkZ5CbT2G6RYdqkKxq"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
+            className="w-full"
             src="https://media.graphassets.com/VMI6QgPOT1yPmlbzvWj9"
             alt=""
           />

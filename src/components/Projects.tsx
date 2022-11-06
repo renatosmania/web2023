@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { EffectCoverflow, Navigation } from "swiper";
+import { Link } from "react-router-dom";
 
 export function Projects() {
   return (
@@ -11,13 +12,13 @@ export function Projects() {
       <div className="md:w-[968px] lg:w-[1024px] flex flex-col mx-7 md:mx-7 lg:mx-0">
         <div className="flex justify-between mb-7 md:mx-7 items-center">
           <h3 className="text-xl font-bold text-black-500">Projetos</h3>
-          <a
-            href="#"
+          <Link
+            to={"/projetos"}
             className="text-sm flex gap-3 items-center bg-black-500 px-8 py-4 text-white-100 font-bold hover:bg-black-500/40 hover:text-black-500/90 transition-all duration-700"
           >
             Ver todos
             <ArrowUpRight size={24} />
-          </a>
+          </Link>
         </div>
         <Swiper
           effect={"coverflow"}
@@ -47,7 +48,7 @@ export function Projects() {
           className="py-6 md:px-0 max-w-sm md:max-w-[768px] lg:max-w-[1024px]"
         >
           <SwiperSlide className="overflow-hidden relative md:h-[200px] group">
-            <a href="#">
+            <Link to={"/projeto/projeto-x"}>
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
                 src="https://media.graphassets.com/FMPA4VoyR6Gjhl1RzD15"
@@ -66,10 +67,10 @@ export function Projects() {
                   <ArrowUpRight size={24} color={"#fff"} />
                 </div>
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide className="overflow-hidden relative md:h-[200px] group">
-            <a href="#">
+          <Link to={"/projeto/projeto-x"}>
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
                 src="https://media.graphassets.com/FMPA4VoyR6Gjhl1RzD15"
@@ -88,10 +89,10 @@ export function Projects() {
                   <ArrowUpRight size={24} color={"#fff"} />
                 </div>
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide className="overflow-hidden relative md:h-[200px] group">
-            <a href="#">
+            <Link to={"/projeto/projeto-x"}>
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
                 src="https://media.graphassets.com/FMPA4VoyR6Gjhl1RzD15"
@@ -110,10 +111,10 @@ export function Projects() {
                   <ArrowUpRight size={24} color={"#fff"} />
                 </div>
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide className="overflow-hidden relative md:h-[200px] group">
-            <a href="#">
+            <Link to={"/projeto/projeto-x"}>
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
                 src="https://media.graphassets.com/FMPA4VoyR6Gjhl1RzD15"
@@ -132,10 +133,10 @@ export function Projects() {
                   <ArrowUpRight size={24} color={"#fff"} />
                 </div>
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           <SwiperSlide className="overflow-hidden relative md:h-[200px] group">
-            <a href="#">
+          <Link to={"/projeto/projeto-x"}>
               <img
                 className="group-hover:scale-[1.1] transition-all duration-700"
                 src="https://media.graphassets.com/FMPA4VoyR6Gjhl1RzD15"
@@ -154,7 +155,7 @@ export function Projects() {
                   <ArrowUpRight size={24} color={"#fff"} />
                 </div>
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
           
 

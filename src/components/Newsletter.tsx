@@ -34,10 +34,10 @@ export function Newsletter() {
   }
   return (
     <section
-      className="w-full flex flex-col items-center bg-black-500 md:bg-none sm:bg-none px-5 md:px-0"
+      className="w-full flex flex-col items-center md:bg-transparent bg-black-500 px-5 md:px-0"
       id="newsletter"
     >
-      <div className="flex flex-col items-center gap-6 bg-black-500 md:bg-none md:max-w-3xl lg:w-[1024px]  py-7">
+      <div className="flex flex-col items-center gap-6 bg-transparent md:bg-black-500 w-full lg:w-[1024px]  py-7">
         <div className="flex flex-col items-center">
           <h4 className="text-xl text-white-100 font-bold">Newsletter</h4>
           <span className="text-white-100">
